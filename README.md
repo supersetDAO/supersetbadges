@@ -60,7 +60,7 @@ Can call the `addMembers(address[],string[])` function.
 
 ### 🦸 Admin
 
-Designates an `Admin` account, which has additional functionalities intended to be operated trustees within the Superset team.
+Designates an `Admin` account, which has additional functionalities intended to be operated by trusted agents as designated by the `Owner`.
 
 In addition to calling `Issuer` functions, can also call `addIssuers(address[])`, `revokeMembers(address[])`, `revokeIssuers(address[])`, `revokeAdmins(address[])`, `updateURI(uint256,string)`, and `batchUpdateURI(uint256[],string[])`.
 
